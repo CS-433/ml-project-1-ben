@@ -69,5 +69,6 @@ The notebook develops the final model, achieved through implementing all finding
 Each notebook is associated with a Python file of the same name (e.g., `data_analysis_baseline.py`, `feature_relevance.py`, etc.). These files contain the functions and methods utilized in the notebooks. Functions were modified across different notebooks, resulting in separate files for each to avoid incompatibilities.
 
 ## Run Submission Script
+Extract `data/dataset.zip` to a folder named `dataset` at the root of the project before running `run.py`
 
 The `run.py` script generates a submission file based on the final model's predictions. It utilizes the trained model to make predictions on the test dataset and creates a  CSV file for submission.
